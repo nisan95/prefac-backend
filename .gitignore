@@ -1,0 +1,24 @@
+**`.gitignore` (backend)**
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Environnement
+.env
+.env.local
+
+# Firebase
+serviceAccountKey.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
